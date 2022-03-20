@@ -1,6 +1,6 @@
 h1 {
   font-family: sans-serif;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 2rem;
 }
 
@@ -29,6 +29,7 @@ img {
 .website_link {
   font-size: 0.75rem;
   color: #4a4e74;
+  line-height: 150%;
 }
 
 .email_fake-button {
@@ -42,6 +43,10 @@ img {
   border-radius: 3vmin;
   width: 75%;
   margin: 1rem auto;
+  color: #374151;
+  text-decoration: none;
+  font-style: normal;
+  background-color: white;
 }
 
 .about_section > * {
@@ -78,6 +83,6 @@ ul {
   background: #d5d4d8;
 }
 
-.card-container {
+.card_container {
   background-color: #f5f5f5;
 }
