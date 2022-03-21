@@ -3,7 +3,7 @@ import './BusinessCard.css';
 
 const BusinessCard = () => {
   return (
-    <section class="card_container">
+    <section aria-labelledby="about_description" class="card_container">
       <img src="https://pbs.twimg.com/profile_images/825098485254983680/mfgLMy_R_400x400.jpg" />
       <h1>John Doe</h1>
       <p class="job">Frontend Developer</p>
@@ -18,28 +18,41 @@ const BusinessCard = () => {
       </address>
       <div class="about_section">
         <h2>About</h2>
-        <p>John Doe is a meme</p>
+        <p id="about_description">
+          Hi, i'm John Doe and this is a business-card meme
+        </p>
         <h2>Interests</h2>
-        <p>And so this business card is</p>
+        <p>I believe i learned something about react after this tutorial</p>
       </div>
       <ul>
         <li>
-          <img src="https://www.pinclipart.com/picdir/middle/250-2508896_social-twitter-outline-svg-png-icon-free-download.png" />
+          <a href="">
+            <img src="https://www.pinclipart.com/picdir/middle/250-2508896_social-twitter-outline-svg-png-icon-free-download.png" />
+          </a>
         </li>
         <li>
-          <img src="https://www.pinclipart.com/picdir/middle/250-2508896_social-twitter-outline-svg-png-icon-free-download.png" />
+          <a href="">
+            <img src="https://www.pinclipart.com/picdir/middle/250-2508896_social-twitter-outline-svg-png-icon-free-download.png" />
+          </a>
         </li>
         <li>
-          <img src="https://www.pinclipart.com/picdir/middle/250-2508896_social-twitter-outline-svg-png-icon-free-download.png" />
+          <a href="">
+            <img src="https://www.pinclipart.com/picdir/middle/250-2508896_social-twitter-outline-svg-png-icon-free-download.png" />
+          </a>
         </li>
         <li>
-          <img src="https://www.pinclipart.com/picdir/middle/250-2508896_social-twitter-outline-svg-png-icon-free-download.png" />
+          <a href="">
+            <img src="https://www.pinclipart.com/picdir/middle/250-2508896_social-twitter-outline-svg-png-icon-free-download.png" />
+          </a>
         </li>
         <li>
-          <img src="https://www.pinclipart.com/picdir/middle/250-2508896_social-twitter-outline-svg-png-icon-free-download.png" />
+          <a href="">
+            <img src="https://www.pinclipart.com/picdir/middle/250-2508896_social-twitter-outline-svg-png-icon-free-download.png" />
+          </a>
         </li>
       </ul>
     </section>
+
   );
 };
 
