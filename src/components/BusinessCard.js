@@ -4,7 +4,10 @@ import './BusinessCard.css';
 const BusinessCard = () => {
   return (
     <section aria-labelledby="about_description" class="card_container">
-      <img src="https://pbs.twimg.com/profile_images/825098485254983680/mfgLMy_R_400x400.jpg" />
+      <img
+        class="avatar"
+        src="https://pbs.twimg.com/profile_images/825098485254983680/mfgLMy_R_400x400.jpg"
+      />
       <h1>John Doe</h1>
       <p class="job">Frontend Developer</p>
       <a class="website_link">JohnDoe.website</a>
@@ -52,7 +55,6 @@ const BusinessCard = () => {
         </li>
       </ul>
     </section>
-
   );
 };
 
